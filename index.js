@@ -1,37 +1,33 @@
+/* eslint-disable */
+
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 export default {
   title: 'Arma3',
-  name: 'test2',
+  name: 'test',
   type: 'game',
   requireVersion: '0.0.1',
   showOnStart: true,
-  icon: 'logo.jpg',
-  translations: {
-    'fr': 'translations/fr.js',
-    'en': 'translations/en.js'
-  },
+  icon: 'assets/logo.png',
   routes: [
     {
-      path: '/test',
-      name: 'test',
-      vue: 'test.vue'
+      path: '/',
+      name: 'home',
+      vue: 'index.vue'
     }
   ],
   init: async function (wingardiumLeviosa, callback) {
-    await delay(200)
+    await delay(500)
     console.log(this.name + ' init func')
-    wingardiumLeviosa.get.cookies().set('test', this.name)
 
-    // Don't forget this callback !!
     callback()
   },
   start: async function () {
-    await delay(1000)
+    await delay(2000)
 
     console.log(this.name + ' start func')
   },
   startButton: function () {
-    console.log('I am called in Arma3 module')
+    console.log('I am called in Overwatch module')
   }
 }
