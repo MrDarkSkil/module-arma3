@@ -2,7 +2,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 export default {
   title: 'Arma3',
-  name: 'test',
+  name: 'module-arma3',
   type: 'game',
   requireVersion: '0.0.1',
   showOnStart: true,
