@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 export default {
@@ -8,13 +6,9 @@ export default {
   type: 'game',
   requireVersion: '0.0.1',
   showOnStart: true,
-  icon: 'assets/logo.png',
+  icon: 'logo.jpg',
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      vue: 'index.vue'
-    }
+
   ],
   init: async function (wingardiumLeviosa, callback) {
     await delay(500)
