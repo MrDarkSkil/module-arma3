@@ -1,5 +1,5 @@
 {
-  "name": "module-minecraft",
+  "name": "module-arma3",
   "version": "1.0.0",
   "description": "Arma3 module for Launcher V6",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrDarkSkil/module-minecraft.git"
+    "url": "git+https://github.com/MrDarkSkil/module-arma3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrDarkSkil/module-minecraft/issues"
+    "url": "https://github.com/MrDarkSkil/module-arma3/issues"
   },
-  "homepage": "https://github.com/MrDarkSkil/module-minecraft#readme"
+  "homepage": "https://github.com/MrDarkSkil/module-arma3#readme"
 }
