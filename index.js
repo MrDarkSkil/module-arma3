@@ -1,8 +1,8 @@
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 module.exports = {
-  title: 'Minecraft',
-  name: 'module-minecraft',
+  title: 'Arma3',
+  name: 'module-arma3',
   type: 'game',
   requireVersion: '0.0.1',
   showOnStart: true,
