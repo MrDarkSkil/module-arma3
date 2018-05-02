@@ -1,0 +1,19 @@
+{
+  "name": "module-minecraft",
+  "version": "1.0.0",
+  "description": "Arma3 module for Launcher V6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDarkSkil/module-minecraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDarkSkil/module-minecraft/issues"
+  },
+  "homepage": "https://github.com/MrDarkSkil/module-minecraft#readme"
+}
